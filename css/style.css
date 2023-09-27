@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex{display: flex;}
+.cen{justify-content: center;}
+.s-b{justify-content: space-between;}
+.s-a{justify-content: space-around;}
+.ai-c{align-items: center;}
+
+.m-35{margin: 35px;}
+.m-25{margin: 25px;}
+.mt-75{margin-top: 75px;}
+.mt-150{margin-top: 150px;}
+.mr-45{margin-right: 45px;}
+.mb-75{margin-bottom: 75px;}
+
+.padR-12{padding-right: 12px;}
+
+.col-wh{color:white}
+
+.fs-26px{font-size: 26px;}
+
+.rel{position: relative;}
+
+header{
+    background-color: #FF6900;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 3;
+}
+#logo-header{
+    width: 170px;
+}
+
+span{margin-right: 10px;}
+
+.img-nh{
+    max-width: 400px;
+    max-height: 500px;
+    position: absolute;
+    z-index: 1;
+}
+
+.img-nh:hover{
+opacity:0.0;
+}
+
+.img-h{
+    max-width: 400px;
+    max-height: 500px;
+    position: relative;
+    z-index: -1;
+}
+
+.heart{
+    background-color: white;
+    padding: 15px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    z-index: 2;
+}
+
+.heart:hover{background-color:red;}    
+
+.sconto{
+    border:1px solid #FF0000;
+    background-color: #FF0000;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    position: absolute;
+    bottom: 90px;
+    z-index: 2;
+}
+
+.sostenibilità{
+    border: 1px solid #008000;
+    background-color: #008000;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    position: absolute;
+    bottom: 90px;
+    left: 50px;
+    z-index: 2;
+}
+
+.sostenibilità-alone{
+    border: 1px solid #008000;
+    background-color: #008000;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    position: absolute;
+    bottom: 90px;
+    left:0;
+    z-index: 2;
+}
+
+.marca{font-size: 15px;}
+.modello{
+    font-size: 18px;
+    font-weight: 800;
+}
+.prezzo-scontato{
+    color:red;
+    font-weight: 800;
+    font-size: 13px;
+    margin: 0;
+}
+.prezzo{
+    text-decoration: line-through;
+    font-size: 13px;
+}
+
+footer{
+    background-color: #1A1A1A;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+}
+
+footer > div > div{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
